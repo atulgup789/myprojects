@@ -1,0 +1,5 @@
+applications:
+- name: spring-boot-demo-app-cloud
+  instances: 1
+  host: spring-boot-demo-app-cloud-unique
+  path: target/SpringMVCFormSubmission-0.0.1-SNAPSHOT.jar

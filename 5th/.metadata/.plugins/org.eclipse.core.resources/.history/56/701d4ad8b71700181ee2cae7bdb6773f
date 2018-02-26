@@ -1,0 +1,4 @@
+applications:
+- name: spring-boot-demo-app-cloud
+  instances: 1
+  host: spring-boot-demo-app-cloud
