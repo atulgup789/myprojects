@@ -1,0 +1,18 @@
+<h1 class="text-default text-center" style="color: green"></h1>
+<nav>
+  <div class="row">
+    <div class="col-xs-4">
+  <a routerLink="about" routerLinkActive="active color: green" [routerLinkActiveOptions]="{exact:true}"><button class="btn btn-default"  style="font-size: 30px">About</button></a>
+  </div>
+  <div class="col-xs-4">
+    <a routerLink="allbook" routerLinkActive="active"><button class="btn btn-default" style="font-size: 30px">BookDetail</button></a>
+   </div>
+   <div class="col-xs-4">
+     <a routerLink="summary" routerLinkActive="active"><button class="btn btn-default" style="font-size: 30px">BookSummary</button></a>
+    </div>
+    </div>
+    </nav>
+  
+  
+ 
+  <router-outlet></router-outlet>
